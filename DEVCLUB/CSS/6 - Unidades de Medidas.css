@@ -1,0 +1,90 @@
+/* 
+UNIDADES DE MEDIDAS
+
+    -> ABSOLUTAS
+        px (pixels) - "1/100  de polegada" é o tamanho da letra ou imagem - SÓ VAMOS USAR O PX
+        in (inches/polegadas)
+        cm / mm (centímetro / milímetro)
+
+    -> RELATIVAS - Usada para responsividade de um site, ou seja, para se adaptar a tela
+    de tablet e celular.  
+
+        % - calcule o tamanho relativo ao elemento pai
+        vw - (view width) 1 vw é 1% da largura da janela do navegador
+        vh - (view height) 1 vh é 1% da largura da janela do navegador
+        em - é uma unidade relativa ao elemento pai Ex. a div- unidade transitória, 
+        rem - é uma unidade relativa ao elemento raiz, ou seja, o <body>
+
+*/
+
+h1 {
+    font-size: 16px;
+}
+
+.vo {
+    font-size: 16px;
+
+}
+
+.pai { 
+    font-size: 16px; 
+
+}
+
+.filho {
+    font-size: 50%; /* Ex. o tamanho dessa fonte é referente a 50% da fonte primária/pai */
+
+}
+
+
+/* PARA LETRA E IMAGEM */
+.pai{
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+
+.filho {
+    width: 50%;
+    height: 50%;
+    background: red;
+}
+
+/* PARA LARGURA E ALTURA (wv e wh) eles sempre se adaptam ao tamanho da tela, seja do celular,
+tablet e etc. */
+
+.pai{
+    width: 100vw;
+    height: 100vh;
+    background: blue;
+}
+
+.filho {
+    width: 50%;
+    height: 50%;
+    background: red;
+}
+
+/* Em - usamos para fazer referência ao pai, mesma ideia da %,
+sempre buscando os valores de cima relacionados , ex. width, height */
+
+.vo {
+        font-size: 16px;
+}
+
+
+.pai{
+    width: 50vw;
+    height: 50vh;
+    background: blue;
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.filho {
+    width: 50%;
+    height: 50%;
+    background: #ff0000;
+    color: #ffffff;
+    font-size: 0.5em; /* é uma multiplicação */
+}

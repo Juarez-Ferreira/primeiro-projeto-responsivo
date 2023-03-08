@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+    font-size: 30px;
+    font-weight: bolder; /* letra em negrito mais forte*/
+    font-family: 'Roboto', sans-serif; /* importamos essa fonte do google fonts e copiamos o link
+    para usá-la no index e no css */
+}
+
+p {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold ; /* para grossura da fonte adiciono um valor Ex. 100,500,900
+    para ser mais rápido adiciono o "bold" que é o negrito */
+    font-family: 'Roboto', sans-serif;
+}

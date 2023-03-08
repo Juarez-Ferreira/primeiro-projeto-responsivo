@@ -1,0 +1,20 @@
+/*CORES 
+
+RGB = RED, GREEN, BLUE
+
+*/
+h1{
+    background: rgb(250, 200, 40);
+}
+
+
+/*HEXADECIMAL 
+
+DECIMAL (10) = 0,1,2,3,4,5,6,7,8,9
+BASE HEXADECIMA (16) = 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+*/
+
+p {
+    background: #FF00FF;
+}

@@ -1,0 +1,95 @@
+<!-- INPUT -->
+
+
+<!-- usamos o "autocomplete" para que o site preencha automaticamente o email,senha,endereço,nome e etc...
+usamos "street-address" para rua/endereço
+usamos o "disabled" para desativar o input
+usamos o "placeholder" para deixar o nome a ser inserido na caixa/input
+usamos o "readonly" para deixa a caixa somente para leitura do "value" (valor) inserido
+usamos o <label> para inserir a informação do que será escrito no input
+usamos o "autofocus" para deixar a caixa/input azul, focado. Obs: só precisa colocar em uma caixa
+
+-->    
+
+<label>
+
+Rua:
+
+<input 
+autocomplete="street-address"
+placeholder="digite sua rua"
+/> 
+
+</label>
+
+<br>
+<br>
+
+<label for="rua">Rua:</label>
+<input id="rua" autofocus/>
+
+<br>
+<br>
+
+<input type="color"> <!-- caixa de cores -->
+<br>
+<br>
+
+<input type="range" min="0" max="100" value="10">  <!-- caixa tipo volume -->
+
+<br>
+<br>
+
+<input type="password" autofocus/> <!-- caixa de senhas-->
+
+<br>
+
+<input type="email" autofocus/> <!-- caixa de email -->
+
+<br>
+
+<br>
+
+<label> 
+    Você quer molho extra?
+<input type="checkbox" autofocus/> <!-- caixa de marcação -->
+
+</label>
+
+
+<br>
+
+<input type="file"/> <!-- caixa de anexo para arquivo
+usamos o "multiple" para importar vários arquivos de uma vez
+usamos o "accept = ".jpeg" " para definir o formato do arquivo ex: mpa,j.peg    
+usamos o "(accept ="video/*), para qualquer tipo de vídeo
+usamos o (accept="image/*), para qualquer tipo de imagem -->
+
+<br>
+
+<input type="number" autofocus
+/> <!-- para números -->
+
+
+<br>
+
+<input type="date" autofocus
+/> <!-- para datass -->
+
+
+
+
+<h2> Qual a sua rede social favorita ?</h2>
+<Br> 
+
+    <label for="facebook"> Facebook 
+        <input type="radio" id="facebook" name = "redes sociais ">
+    </label>
+
+    <label for="instagram"> Instagram 
+        <input type="radio" id="instagram" name = "redes sociais ">
+    </label>
+
+    <label for="youtube"> Youtube 
+        <input type="radio" id="youtube" name = "redes  sociais ">
+    </label>  <!-- usado para uma escolha seleção, se eu quiser marcar todas as opções só o "name="redes sociais" ..-->

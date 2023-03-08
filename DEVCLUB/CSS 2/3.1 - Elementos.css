@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+input {
+    border: 1px solid red;
+    color: blue;
+}
+
+/* para estilizar a caixa onde iremos digitar, usamos o (input:: placeholder) para isso. */
+input::placeholder { 
+    color: #ff1396;
+}
+
+p {
+    color: blue;
+}
+
+/* para estilizar a primeira letra do texto */
+p::first-letter {
+    color: red;
+}
+
+
+/* para colocar um elemento antes ou depois do link */
+a {
+    color: green;
+}
+
+a::before {
+   content: "↕";
+}
+
+a::after {
+    content: "↕";
+}

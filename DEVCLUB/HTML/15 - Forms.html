@@ -1,0 +1,56 @@
+<!-- FORMS
+    - Captura dados de entrada
+    - Input -> Entrada
+    
+    Action -> define para qual url será enviado os dados, vazio envia para mesma url 
+    Method 
+
+    - GET
+    - POST
+-->
+
+<form action="" method="get" enctype="multipart/form-data"> <!-- formulário. Usamos o action para indicar o lugar para onde eu enviar o meu formulário
+quando ele for submetido/concluído
+usamos o (method="get") toda vez que eu enviar dados por meio de url/link do site. é o método pelo qual o computador
+está se comunicando com aqui que pesquisamos.
+usamos o (method="post") para enviar as informações escondida não fica visivel na url
+usamos o (enctype="multipart/form-data") para avisar ao servidor que está indo um arquivo com o formulário.
+--> 
+    <h1> Digite seu Endereço </h1>
+
+    <label>
+        Rua:
+
+        <input type="text" name="rua" autocomplete="street-address" />
+
+    </label>
+
+    <label>
+        Número:
+
+        <input type="number" name="numero" />
+
+    </label>
+
+    <label>
+    Email:
+
+        <input type="email" name="email" />
+
+    </label>
+
+    <label>
+        Foto:
+    
+            <input type="file" name="arquivo" />
+    
+        </label>
+
+
+<button type="reset"> Resete </button> <!-- usamos para apagar todas as informações e digitar novamente-->
+    <button type="submit"> Enviar Dados <!-- usamos o button do type submit, para enviar os dados de todos os campos preenchidos
+    e enviar-->
+</button>
+
+
+</form>

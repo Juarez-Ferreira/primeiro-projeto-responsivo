@@ -1,0 +1,78 @@
+
+/* O padding é uma caixa e usamos para deixa um texto dentro de forma centralizada, quanto
+mais aplicamos px, mais a caixa cresce. 
+O padding é o espaçamento interno, ou seja, nome dentro da caixa.
+
+A margem é o espaçamento externo, ou seja, da caixa externa*/
+
+
+.box{
+        width: 50px;
+        height: 50px;
+        background: blue;
+        padding: 50px; 
+    }
+
+    .box-2{
+        width: 50px;
+        height: 50px;
+        background: red;
+        margin: 20px;
+    }
+
+    .box-3{
+        width: 50px;
+        height: 50px;
+        background: green;
+        margin-top: 20px; /* margem de cima */
+        margin-bottom: 30px; /* margem de baixo */
+        margin-right: 10px;  /* margem da direita */
+        margin-left: 5px; /* margem da esquerda */
+    }
+
+    .box-4{
+        width: 50px;
+        height: 50px;
+        background: pink;
+        padding-top: 20px; /* espaçamento interno de cima */
+        padding-bottom: 30px;/* espaçamento interno de baixo */
+        padding-right: 20px; /* espaçamento interno da direita */
+        padding-left: 25px; /* espaçamento interno da esquerda */
+    }
+
+    /*usando um atalho para as margens e paddings*/
+
+    .box-5{
+        width: 50px;
+        height: 50px;
+        background: green;
+        margin: 20px  30px  15px  10px; 
+        /*      12h   15h   18h   21h  seguindo a direção do relógio sentido horário       */
+    }
+
+    .box-6{
+        width: 50px;
+        height: 50px;
+        background: green;
+        padding: 20px  30px  15px  10px; 
+        /*      12h   15h   18h   21h  seguindo a direção do relógio sentido horário       */
+    }
+
+    .box-7{
+        width: 50px;
+        height: 50px;
+        background: maroon;
+        margin: 20px  30px  15px   ; 
+              /*12h   15h   18h   21h  seguindo a direção do relógio sentido horário.      
+              Quando coloco apenas 3 valores, ele considera a margem
+              da direita e da esquerda iguais.  */
+    }
+
+    .box-8{
+        width: 50px;
+        height: 50px;
+        background: salmon;
+        margin: 20px  30px   ; 
+        /*Quando coloco apenas 3 valores, ele considera a margem
+        de cima e baixo iguais, e depois a da direita e da esquerda iguais.  */
+    }

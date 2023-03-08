@@ -1,0 +1,11 @@
+
+/*CSS => FOLHA DE ESTILO EM CASTACA 
+
+Sempre vai prevalecer os dados que vierem depois
+Ex. h1 color red, h1 color blue, vai prevalecer o blue*/
+
+h1{
+    color: red
+}
+
+

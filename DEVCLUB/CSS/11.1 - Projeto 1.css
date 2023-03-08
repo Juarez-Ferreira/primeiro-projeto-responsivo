@@ -1,0 +1,84 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    font-weight: 600; /* fonte fina mais grossa*/
+    font-size: 24px; /* tamanho da fonte */
+    line-height: 29px; /* altura da linha */
+    color: #989D9C;
+    cursor: pointer; /* para colocar a mãozinha quando passarmos por cada link */
+    margin-right: 23px;
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 20.5px; /* raio da borda */
+    border: none; /* remover a borda */
+    cursor: pointer;
+    width: 130px;
+    height: 41px; 
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;  
+}
+
+.logo-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block; /*para imagem ficar tudo na mesma linha, ou seja, imagem e texto na mesma linha */
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height:122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px; /* uso apenas o width se eu quiser que o parágrafo fique com as linhas 
+    uma abaixo da outra e não contínua. */
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-main {
+    background: #ADFF00;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    width: 239px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); /*aplicar um sombreamento no botão*/
+
+}

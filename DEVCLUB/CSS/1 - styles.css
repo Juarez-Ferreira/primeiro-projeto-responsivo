@@ -1,0 +1,22 @@
+
+
+h1 {
+    color: blue;
+    /* para mudar a cor da letra */
+    background: black;
+    /* para mudar a cor do fundo */
+}
+
+p {
+    color: blue;
+    font-size: 20px;
+    /* para mudar o tamanho da letra*/
+}
+
+button {
+    background: green;
+    /* muda a cor do fundo do botão */
+    border-color: black;
+    /* muda a cor da borda do botão */
+}
+

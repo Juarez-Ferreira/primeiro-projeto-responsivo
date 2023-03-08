@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+body {
+
+    display: flex;
+    justify-content: center;
+    /*   justificar o texto ao centro */
+    align-items: center;
+    /*   alinhamento dos itens */
+    height: 100vh;
+    /*   altura / vh (tela inteira) */
+    width: 100vw;
+    /*   vw - largura */
+    background-image: url("https://images.unsplash.com/photo-1476610182048-b716b8518aae?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY3NTcwMzQ2NQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+}
+
+
+
+.caixa-maior {
+    background-color: #000000;
+    /*   trocar cor de fundo */
+    width: 430px;
+    /*   largura */
+    opacity:0.8 ; /* transparência do item */
+    padding: 20px;
+    border-radius: 25px;
+}
+
+
+input {
+    border: none;
+    /* borda do elemento */
+    outline: none;
+    /* borda azul ao redor da caixa */
+    padding: 10px;
+    /*espaçamento interno */
+    border-radius: 24px;
+    /* bordas arredondadas */
+    font-size: 20px;
+    /*texto de busca */
+    background-color: #7c7c7c2b;
+
+}
+
+
+button{
+
+    border: none;
+    outline: none;
+    padding:10px;
+    border-radius: 50px;
+    background-color:#7c7c7c2b;
+
+}
+.lupa {
+    height: 20px;
+    }
+
+
+
+h2 {
+    color: white;
+    font-size: 28px;
+    /* tamanho do texto*/
+
+}
+
+
+
+.temp {
+    color: #ffffff;
+}
+
+
+
+.descricao {
+    color: #ffffff;
+}
+
+
+.umidade {
+    color: #ffffff;
+}
+

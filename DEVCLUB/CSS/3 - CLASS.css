@@ -1,0 +1,17 @@
+
+
+.texto {
+    color: red;
+    font-weight: bold; /*negrito*/
+}
+
+.botao {
+    background: blue;
+}
+
+
+/* OUTRA PARTE 
+Usamos o .texto,.botao) para colocar 2 ou mais informações da mesma cor.*/
+.texto,.botao, p, #segundo-botao {
+    color: red;
+}

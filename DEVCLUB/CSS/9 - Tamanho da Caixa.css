@@ -1,0 +1,15 @@
+/* BOX SIZING */
+
+*{
+    box-sizing: border-box; /* Usamos o * para aplicar em tudo. O (box-sizing:border-box)
+    limita o tamanho da caixa com o valor que colocarmos para o width e o height, ele sempre vai obedecer o valor */
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background: #ff1493;
+    padding: 20px;
+    border: 10px solid #0000ff; /*usamos para bordar, primeiro a espessura, depois o tipo (dashed = traçejada) e (solid= solido, a padrão), depois a cor */
+
+}

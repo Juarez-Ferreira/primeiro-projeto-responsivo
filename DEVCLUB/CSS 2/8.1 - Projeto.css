@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400; /* Peso da fonte */
+    color: #5D5D7D;
+}
+
+/* para ocupar toda a minha tela vh - altura vw largura */
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.container-left {
+    display: inline-block;
+    width: 60%;
+    padding-left: 136px;
+    /* para aplicar o espaçamento apenas do lado esquerdo */
+    margin-top: 25%;
+}
+
+
+
+.container-right {
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    /* para incluir o fundo opacity */
+    height: 100vh;
+    /* para ocupar toda a tela no sentido vertical */
+    width: 40%;
+    position: absolute;
+}
+
+img {
+    position: relative;
+    top: 25%;
+    right: 130px;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 80px;
+    width: 368px;
+
+
+}
+
+p {
+    font-size: 28px;
+    line-height: 48px;
+    opacity: 0.6;
+    margin: 15px 0;
+    width: 540px;
+
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    border-radius: 30px;
+    border: none;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* toda vez que passar o mouse por cima do botão ficará um pouco mais claro */
+
+button:active {
+    opacity: 0.5;
+}
+
+/* toda vez que clicar no botão ficará mais claro ainda */
+
+
+
+a {
+    font-size: 28px;
+    line-height: 41px;
+    color: #5D5D7D;
+    margin-right: 41px;
+    cursor: pointer;
+}
+
+a:nth-child(2) {
+    opacity: 0.4;
+}
+
+/* quando eu quero que o 2 filho, 2 link fique com o opacity */
+
+a:hover {
+    opacity: 0.4;
+}
+
+a:active {
+    opacity: 0.8;
+}
+
+header {
+    margin: 24px 0 0 57px;
+}
+
+
+
+/* Responsividade */
+
+@media screen and (max-width: 900px) {
+    .container-left {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .container-right {
+        display: block;
+        /* para ficar no lugar fixo */
+        height: auto;
+        /* para se adaptar com a tela */
+        width: 100%;
+        position: static;
+        /* lugar fixo */
+        padding: 40px;
+        /* para imagem ficar no lugar correto */
+
+    }
+
+    img {
+        position: static;
+        max-width: 90%;
+    }
+
+    header {
+        display: none;
+    }
+
+    /* no mobile o header (links) some */
+
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+        /* aplicar o texto ao centro da tela */
+    }
+
+    p {
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+
+    }
+
+
+    button {
+        margin: 0 auto;
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+/*
+
+section {
+    margin-left:  136px;
+    display: inline-block;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+    width: 368px;
+    height: 160px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #5D5D7D;
+    width: 540px;
+    height: 144px;
+    opacity: 60%;
+    margin-top: 15px;
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    border-radius: 30px;
+    border: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+header {
+    margin: 24px 0px 151px 0px;
+}
+.link-header {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+    color: #5D5D7D;
+    margin-right: 41px;
+    cursor: pointer;
+}
+
+.logo-image-1 {
+    width: 456px;
+    height: 562px;
+    display: inline-block;
+    
+    
+}
+*/
